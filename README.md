@@ -28,7 +28,7 @@ BUILD LINUX (see the [Wiki](https://github.com/LyraCoin-Foundation/LyraCoin/wiki
 
 4) chmod +x leveldb/build_detect_platform
 
-5) cd leveldb && 
+5) cd leveldb 
 
 6) make libleveldb.a libmemenv.a
 
