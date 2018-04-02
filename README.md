@@ -28,15 +28,17 @@ BUILD LINUX (see the [Wiki](https://github.com/LyraCoin-Foundation/LyraCoin/wiki
 
 4) chmod +x leveldb/build_detect_platform
 
-5) cd leveldb && make libleveldb.a libmemenv.a
+5) cd leveldb && 
 
-6) cd ..
+6) make libleveldb.a libmemenv.a
 
-7) sudo make -f makefile.unix USE_UPNP=    # Headless LyraCoin
+7) cd ..
 
-8) strip LyraCoind
+8) sudo make -f makefile.unix USE_UPNP=    # Headless LyraCoin
 
-9) sudo cp LyraCoind /usr/local/bin
+9) strip LyraCoind
+
+10) sudo cp LyraCoind /usr/local/bin
 
 
 
